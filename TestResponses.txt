@@ -26,3 +26,12 @@ Test Passed - TestLogin
 Test Failed - TestLogin
 Test Passed - TestColoredButtons
 Test End
+Test Passed - dragDropTest
+Test Passed - galleryTest
+Test Passed - TestiFrame
+Test Passed - TestSlider
+Test Passed - TestNewWindow
+Test Passed - TestLogin
+Test Passed - TestLogin
+Test Passed - TestColoredButtons
+Test End

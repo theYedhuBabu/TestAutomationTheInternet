@@ -11,7 +11,7 @@
             <class name="testiFrame"/>
             <class name="testSlider"/>
             <class name="testNewWindow"/>
-            <class name="testLogin"/>
+            <class name="testlogin"/>
             <class name="testColoredButtons"/>
         </classes>
     </test> <!-- Test -->

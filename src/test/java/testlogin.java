@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class testLogin {
+public class testlogin {
     WebDriver driver;
 
     @BeforeClass
