@@ -1,0 +1,20 @@
+Test Passed - dragDropTest
+Test Passed - galleryTest
+Test Passed - TestiFrame
+Test Passed - TestSlider
+Test Passed - TestNewWindow
+Test Passed - TestLogin
+Test Failed - TestLogin
+Test Passed - TestColoredButtons
+Test End
+Test Passed - dragDropTest
+Test Passed - galleryTest
+Test Passed - TestiFrame
+Test Passed - TestSlider
+Test Passed - TestNewWindow
+Test Passed - TestLogin
+Test Failed - TestLogin
+Test Passed - TestColoredButtons
+Test EndTest Failed - galleryTest
+Test EndTest Passed - galleryTest
+Test End
