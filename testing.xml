@@ -6,13 +6,13 @@
     </listeners>
     <test name="Tests">
         <classes>
-<!--            <class name="testDragDrop"/>-->
+            <class name="testDragDrop"/>
             <class name="testGallery"/>
-<!--            <class name="testiFrame"/>-->
-<!--            <class name="testSlider"/>-->
-<!--            <class name="testNewWindow"></class>-->
-<!--            <class name="testLogin"></class>-->
-<!--            <class name="testColoredButtons"></class>-->
+            <class name="testiFrame"/>
+            <class name="testSlider"/>
+            <class name="testNewWindow"></class>
+            <class name="testLogin"></class>
+            <class name="testColoredButtons"></class>
         </classes>
     </test> <!-- Test -->
 
