@@ -19,6 +19,8 @@ public class Login extends pageFactory {
     WebElement login_button;
     @FindBy(xpath = "//*[@id=\"content\"]/div/h2")
     WebElement alertSuccess;
+    @FindBy(xpath = "//*[@id=\"flash\"]")
+    WebElement alertFail;
     public Login(WebDriver driver) {
         super(driver);
     }
@@ -31,7 +33,14 @@ public class Login extends pageFactory {
         obj.pass_word.sendKeys(password);
         obj.login_button.click();
         Thread.sleep(2000);
-        String title=obj.alertSuccess.getText();
+        String title="";
+        if(userName.equals("tomsmith")){
+            title=obj.alertSuccess.getText();
+        }else{
+            title=obj.alertFail.getText();
+            System.out.println(title);
+        }
+
 //        System.out.println(title);
 //        if(title.equals("Secure Area")){
 //            System.out.println("Successful");

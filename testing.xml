@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Automation Testing Part 2">
     <listeners>
-        <listener class-name="ListenersMine"></listener>
+        <listener class-name="ListenersMine"/>
     </listeners>
     <test name="Tests">
         <classes>
@@ -10,9 +10,9 @@
             <class name="testGallery"/>
             <class name="testiFrame"/>
             <class name="testSlider"/>
-            <class name="testNewWindow"></class>
-            <class name="testLogin"></class>
-            <class name="testColoredButtons"></class>
+            <class name="testNewWindow"/>
+            <class name="testLogin"/>
+            <class name="testColoredButtons"/>
         </classes>
     </test> <!-- Test -->
 

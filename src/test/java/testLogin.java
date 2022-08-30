@@ -30,8 +30,12 @@ public class testLogin {
         Login login = new Login(driver);
 //       login.loginStat();
         String result = login.loginStat(username, password);
-        Assert.assertEquals(result, "Secure Area", "Test Failed");
-
+        if(username.equals("tomsmith")&&password.equals("SuperSecretPassword!")){
+            Assert.assertEquals(result, "Secure Area", "Test Failed");
+        }else {
+            Assert.assertEquals(result, "Your username is invalid!\n" +
+                    "×", "Test Failed");
+        }
         }
     @AfterClass
     public void cleanUp() {
