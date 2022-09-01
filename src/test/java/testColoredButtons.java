@@ -21,9 +21,9 @@ public class testColoredButtons {
         driver.get(mainUrl);
         coloredButtons ColoredButtons =new coloredButtons(driver);
         List<String> arr2=ColoredButtons.coloredButtonStat();
-        Assert.assertFalse(arr2.get(0) == arr2.get(1));
-        Assert.assertFalse(arr2.get(2)==mainUrl);
-        Assert.assertFalse(arr2.get(3)==mainUrl);
+        Assert.assertNotEquals(arr2.get(0) , arr2.get(1),"Test Failed");
+        Assert.assertNotEquals(mainUrl,arr2.get(2));
+        Assert.assertNotEquals(mainUrl,arr2.get(3),"Test Failed");
 
 
     }
